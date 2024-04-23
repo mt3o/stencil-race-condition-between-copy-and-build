@@ -19,6 +19,7 @@ export const config: Config = {
       type: 'www',
       serviceWorker: null, // disable service workers
       copy: [
+        //Commenting out this section, and building once, works as walkaround
         {src:'../loader',dest:'loader'},
         {src:'../dist/esm',dest:'esm'}
       ]
